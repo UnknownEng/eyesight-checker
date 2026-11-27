@@ -12,6 +12,9 @@ A calibrated vision screening app. It runs as a local web app and as an Android 
 
 It is a screening test. It does **not** produce a glasses prescription (lens power).
 
+**Android app:** download the APK from [UnknownEng/eyesight-checker-apk](https://github.com/UnknownEng/eyesight-checker-apk)
+([direct download](https://github.com/UnknownEng/eyesight-checker-apk/releases/latest/download/EyesightChecker.apk)).
+
 ## Run locally
 
 ```
