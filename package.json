@@ -1,0 +1,21 @@
+{
+  "name": "eyesight-checker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Calibrated visual acuity screening app (distance E/letters chart and near reading test).",
+  "scripts": {
+    "start": "node server.js 5173",
+    "simulate": "node tools/simulate.js",
+    "sync": "npx cap sync android",
+    "apk": "npx cap sync android && cd android && gradlew.bat assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.3",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.6.3",
+    "@capacitor/haptics": "^8.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.6.3"
+  }
+}

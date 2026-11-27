@@ -1,0 +1,8 @@
+{
+  "appId": "com.eyesightchecker.app",
+  "appName": "Eyesight Checker",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#f3f6f8"
+  }
+}

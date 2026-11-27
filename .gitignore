@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# build outputs (the APK is published in the separate eyesight-checker-apk repo)
+*.apk
+*.aab
+android/build/
+android/app/build/
+android/.gradle/
+android/capacitor-cordova-android-plugins/build/
+
+# machine-specific
+android/local.properties
+.claude/
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
